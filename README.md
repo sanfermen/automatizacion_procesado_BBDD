@@ -1,3 +1,23 @@
-# project-da-promoC-module-1-team-6
+# Automatización y procesado de datos
 
-Este repositorio corresponde al proyecto del team 6, cuyo objetivo es realizar una base de datos a partir de distintos ficheros con distinto formatos. Automatizando el sistema de procesado de datos para futuras inserciones de archivo.
+En este proyecto vamos a aprender a tratar una serie de archivos relacionados en diferentes formatos, concretamente texto, xml y de una base de datos.
+Para ello vamos a tener que ser capaz de abrir los ficheros, procesarlos y realizar algunas transformaciones sencillas sobre los datos recibidos.
+
+
+El cliente nos ha mandando una serie de diferentes ficheros que contienen información relacionada entre si y desea obtener una base de datos que agregue toda la información en diferentes tablas. Automatizaremos este proceso
+
+## Organización del repositorio
+- Data: con todos los archivos de datos con los que trabajamos a lo largo del proyecto, en formato .csv, .txt y .xml, y el jupyter con la automatizacion
+
+
+
+## Librerías 
+
+Se necesitarán las librerias:
+```
+pandas
+regex
+os
+xml.etree.ElementTree
+mysql.connector
+```
